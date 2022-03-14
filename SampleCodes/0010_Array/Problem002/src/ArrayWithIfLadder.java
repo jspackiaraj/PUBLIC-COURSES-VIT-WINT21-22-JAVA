@@ -53,7 +53,7 @@ public class ArrayWithIfLadder {
             System.out.println(strFailedSubjectsString);
         }
         else if (fltAvg < fltPassMarkForPromotion){
-            System.out.printf("Student has failed to secure %f % and is detained.\n", fltPassMarkForPromotion);
+            System.out.printf("Student has failed to secure %f %% and is detained.\n", fltPassMarkForPromotion);
         }
         else{
             System.out.println("Congratulations, the student has been promoted to the next class");
